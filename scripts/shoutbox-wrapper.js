@@ -35,5 +35,5 @@ function wrap_message(message){
     return ans;
 }
 
-wrapper_list = [["[color=#951aff]", "[/color]"]];
+wrapper_list = [["[color=#ffffff]", "[/color]"]];
 
