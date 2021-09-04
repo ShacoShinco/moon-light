@@ -29,11 +29,11 @@ dvz_shoutbox.shout = function () {
 }
 
 function wrap_message(message){
-    ans = message;
+    ans = " " + message;
     for(i of wrapper_list)
         ans = i[0] + ans + i[1]
     return ans;
 }
 
-wrapper_list = [["[color=#000000]", "[/color]"]];
+wrapper_list = [];
 
